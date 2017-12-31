@@ -2,7 +2,7 @@ package diskvs3cache
 
 /*
 import (
-	"github.com/sniperkit/config"
+	"github.com/sniperkit/xconfig"
 	"github.com/sniperkit/logger"
 )
 

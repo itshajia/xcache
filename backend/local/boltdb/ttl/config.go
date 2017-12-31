@@ -5,9 +5,9 @@ import (
 
 	"github.com/jinzhu/configor"
 	"github.com/k0kubun/pp"
-	"github.com/sniperkit/config"
 	"github.com/sniperkit/vipertags"
 	"github.com/sniperkit/xcache/pkg"
+	"github.com/sniperkit/xconfig"
 )
 
 type boltdbttlcacheConfig struct {

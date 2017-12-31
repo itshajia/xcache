@@ -3,7 +3,7 @@ package boltdbttlcache
 /*
 import (
 	"github.com/sirupsen/logrus"
-	"github.com/sniperkit/config"
+	"github.com/sniperkit/xconfig"
 	"github.com/sniperkit/logger"
 )
 
