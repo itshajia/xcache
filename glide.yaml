@@ -1,0 +1,95 @@
+package: github.com/sniperkit/httpcache
+import:
+- package: cloud.google.com/go
+  subpackages:
+  - storage
+- package: github.com/Azure/azure-sdk-for-go
+  subpackages:
+  - storage
+- package: github.com/HouzuoGuo/tiedot
+  subpackages:
+  - db
+  - dberr
+- package: github.com/aws/aws-sdk-go
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/session
+  - service/s3
+- package: github.com/bluele/gcache
+- package: github.com/boltdb/bolt
+- package: github.com/bradfitz/gomemcache
+  subpackages:
+  - memcache
+- package: github.com/cellstate/treedb
+- package: github.com/cenkalti/backoff
+- package: github.com/coreos/bbolt
+- package: github.com/dgraph-io/badger
+- package: github.com/garyburd/redigo
+  subpackages:
+  - redis
+- package: github.com/going/toolkit
+  subpackages:
+  - log
+- package: github.com/golang/snappy
+- package: github.com/gorilla/handlers
+- package: github.com/gregjones/httpcache
+- package: github.com/hashicorp/go-msgpack
+  subpackages:
+  - codec
+- package: github.com/jinzhu/configor
+- package: github.com/json-iterator/go
+- package: github.com/k0kubun/pp
+- package: github.com/linxGnu/goseaweedfs
+- package: github.com/opennota/substring
+- package: github.com/peterbourgon/diskv
+- package: github.com/rai-project/linguist
+- package: github.com/segmentio/stats
+  subpackages:
+  - httpstats
+- package: github.com/sirupsen/logrus
+- package: github.com/sniperkit/cache
+  subpackages:
+  - helpers
+- package: github.com/sniperkit/cacher
+  subpackages:
+  - core
+- package: github.com/sniperkit/config
+- package: github.com/sniperkit/vipertags
+- package: github.com/syndtr/goleveldb
+  subpackages:
+  - leveldb
+- package: github.com/tidwall/match
+- package: github.com/wttw/orderedheaders
+- package: github.com/zaibon/resp
+- package: github.com/zhuharev/boltutils
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+- package: google.golang.org/api
+  subpackages:
+  - option
+- package: gopkg.in/kothar/brotli-go.v0
+  subpackages:
+  - enc
+- package: gopkg.in/redis.v3
+- package: gopkg.in/src-d/enry.v1
+- package: gopkg.in/yaml.v2
+testImport:
+- package: github.com/die-net/lrucache
+- package: github.com/dustin/go-humanize
+- package: github.com/hashicorp/raft
+  subpackages:
+  - bench
+- package: github.com/onsi/ginkgo
+- package: github.com/onsi/gomega
+- package: github.com/pierrec/lz4
+- package: github.com/rohanthewiz/logger
+- package: github.com/rohanthewiz/serr
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
+- package: gopkg.in/check.v1
