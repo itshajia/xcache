@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 	"strings"
-	// "github.com/sniperkit/cache/helpers"
+	// "github.com/sniperkit/xcache/util"
 )
 
 type UrlSegment struct {

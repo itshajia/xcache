@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/gorilla/handlers"
-	"github.com/sniperkit/httpcache/handler/cacheproxy"
+	"github.com/sniperkit/xcache/handler/cacheproxy"
 )
 
 var (

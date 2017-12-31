@@ -4,7 +4,7 @@
 package twotier
 
 import (
-	"github.com/sniperkit/cache"
+	"github.com/sniperkit/xcache"
 )
 
 // TwoTier creates a two-tiered cache out of two httpcache.Cache instances.

@@ -22,7 +22,7 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/sniperkit/cache"
+	"github.com/sniperkit/xcache"
 )
 
 type key int

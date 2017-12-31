@@ -9,7 +9,7 @@ package memcache_cache
 import (
 	"github.com/bradfitz/gomemcache/memcache"
 	// "github.com/klaidliadon/go-memcached"
-	// "github.com/sniperkit/cache/helpers"
+	// "github.com/sniperkit/xcache/util"
 )
 
 // Cache is an implementation of httpcache.Cache that caches responses in a

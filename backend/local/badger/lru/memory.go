@@ -7,7 +7,7 @@ import (
 	"container/list"
 	"sync"
 	"time"
-	// "github.com/sniperkit/cache/helpers"
+	// "github.com/sniperkit/xcache/util"
 )
 
 type entry struct {

@@ -4,8 +4,8 @@ import (
 	"github.com/jinzhu/configor"
 	"github.com/k0kubun/pp"
 	"github.com/sniperkit/config"
-	"github.com/sniperkit/httpcache/pkg"
 	"github.com/sniperkit/vipertags"
+	"github.com/sniperkit/xcache/pkg"
 )
 
 type boltdbcacheConfig struct {

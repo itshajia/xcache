@@ -22,7 +22,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/sniperkit/cache"
+	"github.com/sniperkit/xcache"
 )
 
 func TestProxy(t *testing.T) {

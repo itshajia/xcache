@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 	"os"
-	// "github.com/sniperkit/cache/helpers"
+	// "github.com/sniperkit/xcache/util"
 )
 
 type Cache struct {

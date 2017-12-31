@@ -12,7 +12,7 @@ import (
 	"time"
 
 	seaweedfs "github.com/linxGnu/goseaweedfs"
-	"github.com/sniperkit/cache/helpers"
+	"github.com/sniperkit/xcache/util"
 )
 
 /*

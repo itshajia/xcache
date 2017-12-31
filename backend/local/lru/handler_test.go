@@ -1,7 +1,7 @@
 package lrucache
 
 import (
-	"github.com/sniperkit/cache"
+	"github.com/sniperkit/xcache"
 	"github.com/stretchr/testify/assert"
 	"math/rand"
 	"runtime"

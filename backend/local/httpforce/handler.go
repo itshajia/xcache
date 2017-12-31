@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/sniperkit/cache"
+	"github.com/sniperkit/xcache"
 )
 
 // cacheKey returns the cache key for req.

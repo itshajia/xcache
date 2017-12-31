@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sniperkit/cache"
+	"github.com/sniperkit/xcache"
 	"github.com/stretchr/testify/assert"
 )
 

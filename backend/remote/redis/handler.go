@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"gopkg.in/redis.v3"
-	// "github.com/sniperkit/cache/helpers"
+	// "github.com/sniperkit/xcache/util"
 )
 
 // Cache objects store and retrieve data using Redis.

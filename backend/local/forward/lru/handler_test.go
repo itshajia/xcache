@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/sniperkit/cache"
+	"github.com/sniperkit/xcache"
 )
 
 func TestSet(t *testing.T) {

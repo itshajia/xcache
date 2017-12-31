@@ -3,9 +3,9 @@ package badgerrediscache
 import (
 	"github.com/jinzhu/configor"
 	"github.com/k0kubun/pp"
-	"github.com/sniperkit/cacher/core"
 	"github.com/sniperkit/config"
 	"github.com/sniperkit/vipertags"
+	"github.com/sniperkit/xcache/pkg"
 )
 
 type badgerRedisCacheConfig struct {

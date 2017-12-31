@@ -5,9 +5,9 @@ import (
 
 	"github.com/going/toolkit/log"
 	"github.com/peterbourgon/diskv"
-	"github.com/sniperkit/httpcache/backend/diskv"
-	"github.com/sniperkit/httpcache/backend/diskv/s3/s3cache"
-	// "github.com/sniperkit/cache/helpers"
+	"github.com/sniperkit/xcache/backend/cloud/diskvs3/s3cache"
+	"github.com/sniperkit/xcache/backend/local/diskv"
+	// "github.com/sniperkit/xcache/util"
 )
 
 type Cache struct {

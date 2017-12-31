@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sniperkit/cache"
+	"github.com/sniperkit/xcache"
 )
 
 var origin *httptest.Server

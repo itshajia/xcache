@@ -6,7 +6,7 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/sniperkit/httpcache/pkg"
+	"github.com/sniperkit/xcache/pkg"
 )
 
 var (

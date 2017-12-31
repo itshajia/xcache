@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/sniperkit/cache"
+	"github.com/sniperkit/xcache"
 )
 
 func BenchmarkCachingFiles(b *testing.B) {

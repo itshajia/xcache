@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/sniperkit/httpcache/backend/bbolt"
+	"github.com/sniperkit/xcache/backend/local/boltdb/bbolt"
 )
 
 func TestBoltDBCache(t *testing.T) {
