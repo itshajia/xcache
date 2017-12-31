@@ -2,10 +2,12 @@ package badgercache
 
 import (
 	"github.com/jinzhu/configor"
-	"github.com/k0kubun/pp"
+
 	"github.com/sniperkit/vipertags"
-	"github.com/sniperkit/xcache/pkg"
 	"github.com/sniperkit/xconfig"
+	// cache "github.com/sniperkit/xcache/pkg"
+
+	"github.com/k0kubun/pp"
 )
 
 type badgercacheConfig struct {
@@ -39,9 +41,9 @@ func (a *badgercacheConfig) Read() {
 	if a.Provider == "" {
 		a.Provider = a.ConfigName()
 	}
-	if a.MaxConnections == 0 {
-		a.MaxConnections = httpcache.DefaultMaxConnections
-	}
+	//if a.MaxConnections == 0 {
+	//	a.MaxConnections = cache.DefaultMaxConnections
+	//}
 }
 
 // Read several config files (yaml, json or env variables)
